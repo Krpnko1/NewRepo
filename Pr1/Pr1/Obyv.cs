@@ -23,7 +23,7 @@ namespace Pr1
         }
         public void Print ()
         {
-            Console.WriteLine("Производитель" + " " + Proizv + " " + "Рамзер" + " " + Razmer + " " + "Цена" + Cena);
+            Console.WriteLine("Производитель" + " " + Proizv + " " + "Рамзер" + " " + Razmer + " " + "Цена" + " " + Cena);
         }
         public void Input ()
         {
