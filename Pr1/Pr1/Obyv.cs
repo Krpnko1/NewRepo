@@ -21,5 +21,18 @@ namespace Pr1
             this.Proizv = proizv;
             this.Razmer = razmer;
         }
+        public void Print ()
+        {
+            Console.WriteLine("Производитель" + " " + Proizv + " " + "Рамзер" + " " + Razmer + " " + "Цена" + Cena);
+        }
+        public void Input ()
+        {
+            Console.WriteLine("Производтель: ");
+            this.Proizv = Console.ReadLine();
+            Console.WriteLine("Разер: ");
+            this.Razmer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Цена: ");
+            this.Cena = Convert.ToDouble(Console.ReadLine());
+        }
     }
 }
